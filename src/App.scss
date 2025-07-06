@@ -3,11 +3,12 @@
   height: 500px;
   margin: 0 auto;
   padding: 20px;
-  border: 2px solid #ccc;
+  border: 2px solid black;
   border-radius: 10px;
-  background-color: #d1cbcb;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
+  background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 56%, rgba(252, 70, 107, 1) 100%);
 }
 
 #display {
@@ -28,7 +29,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #333;
+  background-color: black;
   color: #fff;
   outline: none;
   height: 50px;
@@ -36,35 +37,35 @@ button {
 }
 
 button#equals {
-  background-color: #f39c12;
-  color: #333;
+  background-color: #fa9d07;
+  color: black;
   width: 130px;
 }
 
 button#clear {
-  background-color: #e74c3c;
-  color: #fff;
+  background-color: #ff2007;
+  color: white;
   width: 130px;
 }
 
 button#add {
-  background-color: gray;
+  background-color: rgb(71, 64, 64);
 }
 
 button#subtract {
-  background-color: gray
+  background-color: rgb(71, 64, 64)
 }
 
 button#multiply {
-  background-color: gray
+  background-color: rgb(71, 64, 64)
 }
 
 button#divide {
-  background-color: gray
+  background-color: rgb(71, 64, 64)
 }
 
 button#decimal {
-  background-color: gray
+  background-color: rgb(71, 64, 64)
 }
 button:hover {
   background-color: #444;
@@ -77,4 +78,14 @@ button:hover {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
+  color: #EEAECA;
+  color: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.App, html {
+  background-image: url('/Numbers.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
